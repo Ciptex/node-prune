@@ -1,11 +1,7 @@
 {
-  "name": "node-prune",
-  "version": "1.0.2",
-  "description": "easily pruning unneeded files from node_modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "@ciptex/node-prune",
+  "version": "1.1.0",
+  "description": "Prune unnecessary node_modules files.",
   "bin": {
     "node-prune": "./prune.sh"
   },
@@ -15,8 +11,26 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuananh/node-prune.git"
+    "url": "https://github.com/Ciptex/node-prune.git"
   },
   "author": "Tuan Anh Tran <me@tuananh.org> (https://tuananh.org)",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/Ciptex/node-prune",
+  "bugs": {
+    "url": "https://github.com/Ciptex/node-prune/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Matthew Duggan",
+      "email": "matthew.duggan@ciptex.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "restricted",
+    "cache": "~/.npm",
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": [
+    "./prune.sh"
+  ]
 }
